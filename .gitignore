@@ -1,2 +1,41 @@
+# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
 .env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build output
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Sessions (Express session store)
+sessions/
+session-store/
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
